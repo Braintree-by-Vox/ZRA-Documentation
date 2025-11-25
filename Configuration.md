@@ -78,7 +78,6 @@ Two Permission Sets have been added:
 
 >The system also maintains a list of users and assigns a unique integer to each user as required by the ZRA interface. This should not require any maintenance by an administrator.
 
-
     ![image009](./docs/images/image009.png)
 
 [**⬆️ Back to Top**](#integration-setup) &nbsp;&nbsp;&nbsp;&nbsp; [**🏠 Home**](/ZRA-Documentation)
