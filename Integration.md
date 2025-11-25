@@ -1,4 +1,4 @@
-## 3. <a name="_toc178688696"></a>Integration with ZRA
+## Integration with ZRA
    The Braintree ZRA Smart Invoice Connector enables you to automate your tax compliance and submission processes with the ZRA system.
 
    Integration happens in the background and without user interaction. On posting of Sales and Purchase documents, the system creates:
@@ -8,9 +8,9 @@
       2. User can resubmit entries for processing from here.
    2. Job Queue Entries. Background process that is responsible for processing the requests.
 
-![image010](./docs/images/image010.png)
+   ![image010](./docs/images/image010.png)
 
-### 3.1 <a name="_toc178688697"></a>Invoices & Credit Memos (Sales & Purchases)
+### Invoices & Credit Memos (Sales & Purchases)
 ZRA requires certain information on the documents. Checks have been put in place to ensure that they are captured before a document can be released and posted.
 
 >Note: Posted Sales Documents (Invoices and Credit Memos) need to be submitted to the ZRA before they can be printed. The ZRA mandates that certain information is printed on all invoices, but this information is only returned from ZRA after submission. A custom automated job could be configured to print or send invoices by email after reply is received from the ZRA Smart Invoice system.
@@ -31,7 +31,7 @@ Checks during integration:
 1. Item must be registered from the ZRA Item Worksheet.
 2. **Recommended Retail Price**, if required by the setup on the ZRA VAT Type (this is usually for Tax Code "B")
 
-### 3.2 <a name="_toc178688698"></a>Item Worksheet
+### Item Worksheet
 The ZRA Item Worksheet is used to register items with ZRA. It is a required step for document to be submitted.
 
 1. Search for and open the ZRA Item Worksheet.
@@ -57,7 +57,7 @@ The ZRA Item Worksheet is used to register items with ZRA. It is a required step
 
 8. Click Home | Register Items. This will process the entries in a background process and the progress can be monitored on the Integration Entries page.
 
-### 3.3 <a name="_toc178688699"></a>Job Queue
+### Job Queue
 There are 5 Job Queue Entries that are created automatically when the extension is installed. Each of them performs different tasks for the integration to run smoothly.
 
 By default,
@@ -70,7 +70,7 @@ By default,
 
 ![image013](./docs/images/image013.png)
 
-### 3.4 <a name="_toc178688700"></a>Customs Imports
+### Customs Imports
 The ZRA Smart Invoice system allows users to accept or reject goods sitting at customs. This can be done on the Service Provider’s portal, or in Business Central.
 
 1. Search for and open the ZRA Customs Imports page
@@ -82,7 +82,8 @@ The ZRA Smart Invoice system allows users to accept or reject goods sitting at c
 7. When all lines are updated, click Approve Lines action on the header.
 1. This will submit your selection to the ZRA.
 
-![image014](./docs/images/image014.png)
+   ![image014](./docs/images/image014.png)
 
-![image015](./docs/images/image015.png)
+   ![image015](./docs/images/image015.png)
 
+[**⬆️ Back to Top**](#3-integration-with-zra) &nbsp;&nbsp;&nbsp;&nbsp; [**🏠 Home**](/ZRA-Documentation)
