@@ -6,16 +6,27 @@ title: Discussions
 # Discussions
 
 Join the conversation! Visit our GitHub Discussions forum to ask questions, share ideas, and connect with the community.
+<!-- 
+<div style="margin-top: 30px; text-align: center;">
+  <a href="https://github.com/Braintree-by-Vox/ZRA-Documentation/discussions" 
+     target="_blank" 
+     style="display: inline-block; padding: 12px 24px; background-color: #2ea44f; color: white; text-decoration: none; border-radius: 6px; font-weight: bold;">
+    💬 Visit GitHub Discussions
 
-<div style="width: 100%; height: 800px; border: 1px solid #ddd; margin-top: 20px;">
-  <iframe src="https://github.com/Braintree-by-Vox/ZRA-Documentation/discussions" 
-          style="width: 100%; height: 100%; border: none;" 
-          title="GitHub Discussions">
-  </iframe>
+    {% include giscus.html %}
+  </a>
 </div>
 
-<p style="margin-top: 10px;">
-  <a href="https://github.com/Braintree-by-Vox/ZRA-Documentation/discussions" target="_blank">
-    Open Discussions in a new tab →
-  </a>
-</p>
+<div style="margin-top: 40px;">
+  <h2>Community Guidelines</h2>
+  <p>Our GitHub Discussions is the place to:</p>
+  <ul>
+    <li>Ask questions and get help from the community</li>
+    <li>Share your experiences and best practices</li>
+    <li>Suggest new features and improvements</li>
+    <li>Report issues and bugs</li>
+    <li>Connect with other users</li>
+  </ul>
+</div> -->
+
+{% include giscus.html %}
