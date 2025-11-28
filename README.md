@@ -1,4 +1,10 @@
-﻿# ZRA SMART INVOICE CONNECTOR
+﻿---
+layout: default
+title: Braintree Support documentation
+description: This is a summary of support topics for Braintree by Vox.
+---
+
+# ZRA SMART INVOICE CONNECTOR
   - [3. Integration with ZRA](#3-integration-with-zra)
     - [3.1 Invoices \& Credit Memos (Sales \& Purchases)](#31-invoices--credit-memos-sales--purchases)
     - [3.2 Item Worksheet](#32-item-worksheet)
