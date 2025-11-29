@@ -1,5 +1,4 @@
 ﻿---
-# layout: default
 title: Braintree Support documentation
 description: This is a summary of support topics for Braintree by Vox.
 ---
