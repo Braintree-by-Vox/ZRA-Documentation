@@ -1,6 +1,6 @@
 ---
-layout: default
-title: Discussions
+layout: altFormat
+title: Discussions update
 ---
 
 # Discussions
